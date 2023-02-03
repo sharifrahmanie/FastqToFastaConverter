@@ -16,7 +16,7 @@ with open("file.fastq") as fq:
           if '+' in plus_sym_list[i]:
             plus_list.append(plus_sym_list[i])            
     if row/len(at_list) != 4 or row/len(plus_list) != 4:
-        raise Exception("Incorect FastQ file (length or @ symbol)")       
+        raise Exception("Incorrect FastQ file (length or @ symbol)")       
     fq.seek(0)
     fq_len = len(fq.readlines())
     fq.seek(0)
