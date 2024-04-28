@@ -11,5 +11,4 @@ pip install FastqToFastaConverter
 from FastqToFastaConverter.fastq2fasta import FastqToFastaConverter
 converter = FastqToFastaConverter()
 converter.convert('input.fastq')
-
 ```
