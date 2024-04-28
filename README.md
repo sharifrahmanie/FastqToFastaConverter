@@ -1,7 +1,15 @@
-# fastq2fasta
-FastQ to FASTA file converter
+**FastQ to FASTA file converter**
 
-## Run
+# Installation
+
 ```r{}
-fastq2fast("file.fastq")
+pip install FastqToFastaConverter
+```
+# Running
+
+```r{}
+from FastqToFastaConverter.fastq2fasta import FastqToFastaConverter
+converter = FastqToFastaConverter()
+converter.convert('input.fastq')
+
 ```
